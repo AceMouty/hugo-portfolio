@@ -1937,7 +1937,6 @@
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
 
@@ -2171,6 +2170,7 @@
 				#main > section.dark a {
 					color: #fff;
 					border-color: inherit;
+					text-decoration: none;
 				}
 
 					#main > section.dark a:hover {

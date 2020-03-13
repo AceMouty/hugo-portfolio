@@ -3,3 +3,10 @@ languageCode = "en-us"
 title = "Portfolio | Kyle Guerrero"
 theme = "prologue"
 publishDir = "acemouty.github.io"
+
+[params]
+  [[params.portfolio2]]
+    source = "/images/twitoff_thumbnail.png"
+    title = "TwitOff"
+    desc = "This is some text"
+    url = "https://twitoff.com"
