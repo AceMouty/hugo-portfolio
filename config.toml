@@ -4,9 +4,21 @@ title = "Portfolio | Kyle Guerrero"
 theme = "prologue"
 publishDir = "acemouty.github.io"
 
-[params]
-  [[params.portfolio2]]
-    source = "/images/twitoff_thumbnail.png"
-    title = "TwitOff"
-    desc = "This is some text"
-    url = "https://twitoff.com"
+# center of top row
+[[params.portfolio2]]
+  source = "/images/twitoff_thumbnail.png"
+  title = "TwitOff"
+  sub = "Made with: Bootstrap, jQuery and Ajax"
+  desc = "This is some text"
+  url = "https://twitoff.com"
+
+# Social Links
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/AceMouty"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/kyle-g-a7b7a0b6/"

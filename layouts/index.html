@@ -62,7 +62,7 @@
 					<!-- Social Icons -->
 						<ul class="icons">
               {{ range .Site.Params.social }}
-              <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+              <li><a href="{{ .link }}" target="_blank" class="icon fa-{{ .icon }} fa-lg"><span class="label">{{ .medium }}</span></a></li>
               {{ end }}
 						</ul>
 
@@ -80,7 +80,7 @@
 								<header>
 									<h2 class="alt">Kyle Guerrero</h2>
 									<p>
-										My passion is in technology and I love to build and create effective modern websites and applications.	
+										My passion is in technology and I love to build and create effective modern websites and applications.
 									</p>
 								</header>
 	
@@ -112,7 +112,8 @@
                   <article class="item">
                     <a href="#" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
                     <header>
-                      <h3>{{ .title }}</h3>
+											<h3>{{ .title }}</h3>
+											<h4>{{ .sub }}</h4>
 										</header>
 										<p>{{ .desc }}</p>
                   </article>
@@ -124,7 +125,8 @@
                   <article class="item">
                     <a href="{{ .url }}" target="_blank" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
                     <header>
-                      <h2>{{ .title }}</h2>
+											<h2>{{ .title }}</h2>
+											<h4>{{ .sub }}</h4>
 										</header>
 										<p>{{ .desc }}</p>
                   </article>
@@ -146,22 +148,6 @@
                   {{ end }}
                 </div>
               </div>
-						<!-- <div id="project-gallery" class="container">
-							<div class="project-container">
-								<div class="project-container__text">
-									<header class="project-container__header">
-										<h2>Some Project Header</h2>
-									</header>
-									<p class="project-container__description">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero odio natus ab obcaecati, dolorem fuga cum sequi iure repudiandae.
-									</p>
-								</div>
-								<div class="project-container__img">
-									<img src="/static/images/twitoff.jpg" alt="hello">
-								</div>
-							</div>
-
-						</div> -->
 					</section>
 
 				<!-- About Me -->
@@ -172,7 +158,9 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a>
+							<div class="image-frame">
+								<img class="img-fluid img-thumbnail" src="images/me.jpeg" alt="" />
+							</div>
 
 							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
 							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
