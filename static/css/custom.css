@@ -36,13 +36,15 @@
   max-width: 100%;
 }
 
+/* About me */
 .img-thumbnail{
   padding: 0;
   border-radius: 50%;
   width: 20rem;
 }
 
-@media(max-width: 960px){
+/* Portfolio */
+@media(max-width: 1160px){
 
   .project-gallery_card:nth-child(odd){
     flex-wrap: wrap;
@@ -50,6 +52,11 @@
 
   .project-gallery_card:nth-child(even){
     flex-wrap: wrap-reverse;
+  }
+
+  .project-gallery_img {
+    margin-top: 30px;
+    min-width: 80%;
   }
 
   .project-gallery_text{
